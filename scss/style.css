@@ -73,8 +73,19 @@ a {
 
 .header {
   background-color: #4169E1;
+  text-align: right;
+}
+
+.header__btn {
+  display: inline;
 }
 
 .header__btn a {
   color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.18rem;
+}
+
+.header__btn-phone {
+  display: inline;
 }

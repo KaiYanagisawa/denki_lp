@@ -1,8 +1,15 @@
 .header{
     background-color: $background-blue;
+    text-align: right;
     &__btn{
+        display: inline;
         a{
             color: $font-white;
+            font-weight: 700;
+            font-size: 0.18rem;
         }
+    }
+    &__btn-phone{
+        display: inline;
     }
 }
