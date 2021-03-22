@@ -1,11 +1,15 @@
+// setting dir
 @import './setting/config';
 
+// mixin dir
 @import './mixin/btn';
 @import './mixin/font';
 
+// base dir
 @import './base/reset';
 @import './base/base';
 
+// module dir
 @import './module/header';
 @import './module/first-view';
 @import './module/campaign';
