@@ -65,6 +65,7 @@ html {
 body {
   font-size: 0.16rem;
   font-family: YuGothic;
+  color: #000000;
 }
 
 a {
@@ -74,10 +75,17 @@ a {
 .header {
   background-color: #4169E1;
   text-align: right;
+  list-style: none;
+  position: fixed;
+  width: 100%;
+}
+
+.header li {
+  display: inline-block;
 }
 
 .header__btn {
-  display: inline;
+  display: inline-block;
 }
 
 .header__btn a {
@@ -87,5 +95,20 @@ a {
 }
 
 .header__btn-phone {
-  display: inline;
+  display: inline-block;
+  font-size: 0.24rem;
+  margin: 0.06rem 0.11rem;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FF4500;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0.04rem;
+}
+
+.header__btn-phone li a {
+  height: 0.4rem;
+  margin: 0.06rem 0;
+}
+
+.header__btn-phone span {
+  font-size: 0.18rem;
 }

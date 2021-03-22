@@ -1,15 +1,33 @@
 .header{
-    background-color: $background-blue;
-    text-align: right;
-    &__btn{
-        display: inline;
-        a{
-            color: $font-white;
-            font-weight: 700;
-            font-size: 0.18rem;
+        background-color: $background-blue;
+        text-align: right;
+        list-style: none;
+        position: fixed;
+        width: 100%;
+        li{
+            display: inline-block;
         }
-    }
-    &__btn-phone{
-        display: inline;
+        &__btn{
+            display: inline-block;
+            a{
+                color: $font-white;
+                font-weight: 700;
+                font-size: 0.18rem;
+            }
+        }
+        &__btn-phone{
+            display: inline-block;
+            font-size: 0.24rem;
+            margin: 0.06rem 0.11rem;
+            @include _btn;
+            li{
+                a{
+                    height: 0.4rem;
+                    margin: 0.06rem 0;        
+                }
+            }
+            span{
+                font-size: 0.18rem;
+            }
     }
 }
