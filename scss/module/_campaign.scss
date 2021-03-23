@@ -1,0 +1,13 @@
+// campaign
+.campaign{
+    background-color: $background-blue;
+    &__board{
+        display: block;
+        text-align: center;
+        padding: 0.21rem 0;
+        width: 100%;
+        img{
+            width: 7.12rem;
+        }
+    }
+}

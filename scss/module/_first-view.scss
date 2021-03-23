@@ -1,3 +1,41 @@
+// first-view
 .first-view{
     margin: 0.5rem 0 0;
+    &__contain{
+        position: relative;
+        text-align: right;
+        &-back-ground{
+            img{
+                left:calc(50% - 11.68rem/2);
+                width: 11.68rem;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &-sentence{
+            display: inline-block;
+            margin: 0.65rem 0.97rem 0.4rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            h1{
+                font-size: 0.36rem;
+                font-weight: 700;
+                line-height: 0.58rem;
+                span{
+                    color: $main-red;
+                }
+            }
+            p{
+                font-size: 0.24rem;
+            }
+            &-btn{
+                @include _btn;
+                a{
+                    color: $font-black;
+                }
+            }
+        }
+    }
 }
