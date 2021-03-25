@@ -1,0 +1,37 @@
+.appeal{
+    &__title{
+        h2{
+            @include _title-font-mixin;
+            text-align: center;
+            margin: 0.32rem 0;
+        }
+    }
+    &__lists{
+        &-ul{
+            text-align: center;
+            &-li{
+                display: inline-block;
+                &-1{
+                    @include _appeal-mixin;
+                    margin: 0 0.54rem 0 0;
+                }
+                &-2{
+                    @include _appeal-mixin;
+                    margin: 0 0.54rem;
+                }
+                &-3{
+                    @include _appeal-mixin;
+                    margin: 0 0 0 0.54rem;
+                }        
+            }
+        }
+    }
+    &__btn {
+        @include _btn-mixin;
+        width: 4.42rem;
+        margin: 0.28rem auto;
+        a{
+            color: $main-white;
+        }
+    }
+}

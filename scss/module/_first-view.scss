@@ -20,9 +20,7 @@
             right: 0;
             z-index: 1;
             h1{
-                font-size: 0.36rem;
-                font-weight: 700;
-                line-height: 0.58rem;
+                @include _title-font-mixin;
                 span{
                     color: $main-red;
                 }
@@ -31,9 +29,10 @@
                 font-size: 0.24rem;
             }
             &-btn{
-                @include _btn;
+                @include _btn-mixin;
+                width: 4.42rem;
                 a{
-                    color: $font-black;
+                    color: $main-white;
                 }
             }
         }

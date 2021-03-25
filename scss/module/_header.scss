@@ -1,6 +1,6 @@
 // header
 .header{
-        background-color: $background-blue;
+        background-color: $main-white;
         text-align: right;
         list-style: none;
         position: fixed;
@@ -14,7 +14,7 @@
         &__btn{
             display: inline-block;
             a{
-                color: $font-white;
+                color: $main-white;
                 font-weight: 700;
                 font-size: 0.18rem;
                 margin: 0 0.1rem;
@@ -26,12 +26,12 @@
             margin: 0.06rem 0.11rem;
             padding: 0 0.09rem 0 0.11rem;
             font-weight: 700;
-            @include _btn;
+            @include _btn-mixin;
             li{
                 a{
                     height: 0.4rem;
                     margin: 0.06rem 0;
-                    color: $font-black;
+                    color: $main-white;
                     img{
                         width: 0.28rem;
                         height: 0.29rem;
@@ -41,6 +41,7 @@
             }
             span{
                 font-size: 0.18rem;
+                vertical-align: text-top;
             }
     }
 }
