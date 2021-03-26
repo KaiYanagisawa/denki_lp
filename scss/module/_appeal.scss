@@ -3,7 +3,6 @@
         h2{
             @include _title-font-mixin;
             text-align: center;
-            margin: 0.32rem 0;
         }
     }
     &__lists{
