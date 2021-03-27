@@ -1,11 +1,46 @@
 @mixin _question-dt-dd-mixin {
     width: 12.24rem;
+    margin: 0 0 0.55rem 0;
+    padding: 0 0 0.57rem 0;
+    border-bottom: 1px solid #000000;
     dt{
         font-weight: 500;
         font-size: 0.18rem;
+        &:before{
+            content: "Q";
+            font-size: 0.36rem;
+            font-weight: bold;
+            color: $main-white;
+            background: #FF0000;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            border-radius: 0.1rem;
+            width: 0.5rem;
+            background-size: contain;
+            vertical-align: middle;
+            display: inline-block;
+            text-align: center;
+            line-height: 0.45rem;
+        }
     }
     dd{
         font-weight: 500;
         font-size: 0.18rem;
+        &:before{
+            content: "A";
+            font-size: 0.36rem;
+            font-weight: bold;
+            color:#FF0000;
+            background:$main-white;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            border-radius: 0.1rem;
+            width: 0.5rem;
+            background-size: contain;
+            vertical-align: middle;
+            display: inline-block;
+            text-align: center;
+            line-height: 0.45rem;
+        }
     }
 }

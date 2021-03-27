@@ -5,14 +5,25 @@
             text-align: center;
         }
     }
-    dl{
-        dt{
-            font-weight: 500;
-            font-size: 0.18rem;
-        }
-        dd{
-            font-weight: 500;
-            font-size: 0.18rem;
-        }
+    &__lists{
+        &-dl{
+            margin: 0 0 0 1.63rem;
+            &-1{
+                @include _question-dt-dd-mixin;
+            }
+            &-2{
+                @include _question-dt-dd-mixin;
+            }
+            &-3{
+                @include _question-dt-dd-mixin;
+            }
+            &-4{
+                @include _question-dt-dd-mixin;
+            }
+            &-5{
+                @include _question-dt-dd-mixin;
+                margin: 0 0 0.27rem 0;
+            }
+        }    
     }
 }
