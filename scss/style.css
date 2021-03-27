@@ -351,3 +351,25 @@ a {
   font-weight: 500;
   font-size: 0.18rem;
 }
+
+.footer {
+  background-color: #F5F5F5;
+}
+
+.footer__links {
+  text-align: center;
+}
+
+.footer__links-1 {
+  font-size: 0.18rem;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0.85rem 0 0;
+}
+
+.footer__links-2 {
+  font-size: 0.18rem;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 0 0.85rem;
+}

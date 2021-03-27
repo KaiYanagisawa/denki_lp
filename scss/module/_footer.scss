@@ -1,0 +1,14 @@
+.footer{
+    background-color: $background-gray;
+    &__links{
+        text-align: center;
+        &-1{
+            @include _footer-font-mixin;
+            margin: 0 0.85rem 0 0;
+        }
+        &-2{
+            @include _footer-font-mixin;
+            margin: 0 0 0 0.85rem;
+        }
+    }
+}

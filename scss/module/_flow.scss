@@ -1,5 +1,5 @@
 .flow{
-    background: #F5F5F5;
+    background: $background-gray;
     &__title{
         h2{
             @include _title-font-mixin;
