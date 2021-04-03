@@ -113,6 +113,8 @@ a {
   height: 0.4rem;
   margin: 0.06rem 0;
   color: #FFFFFF;
+  display: inline-block;
+  height: 0.4rem;
 }
 
 .header__btn-phone li a img {
@@ -186,7 +188,7 @@ a {
 }
 
 .campaign__board img {
-  width: 7.12rem;
+  height: 1.57rem;
 }
 
 .appeal__title h2 {
@@ -592,10 +594,9 @@ a {
   width: 0.5rem;
   height: 0.5rem;
   position: fixed;
-  right: 0;
-  bottom: 0;
+  right: 0.5rem;
+  bottom: 2rem;
   background: #C5C5C5;
-  opacity: 0.6;
   border-radius: 50%;
 }
 
