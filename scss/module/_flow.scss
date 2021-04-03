@@ -6,6 +6,20 @@
             text-align: center;
             padding: 0.32rem 0;
         }
-        
+    }
+    &__content{
+        img{
+            width: 11.78rem;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    &__btn {
+        padding: 0.28rem 0;
+        img{
+            width: 4.42rem;
+            display: block;
+            margin: 0 auto;    
+        }
     }
 }

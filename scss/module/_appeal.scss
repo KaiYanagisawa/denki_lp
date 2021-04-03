@@ -3,6 +3,7 @@
         h2{
             @include _title-font-mixin;
             text-align: center;
+            padding: 0.32rem 0;
         }
     }
     &__lists{
@@ -26,11 +27,10 @@
         }
     }
     &__btn {
-        @include _btn-mixin;
-        width: 4.42rem;
-        margin: 0.28rem auto;
-        a{
-            color: $main-white;
+        img{
+            width: 4.42rem;
+            margin: 0.28rem auto;    
+            display: block;
         }
     }
 }

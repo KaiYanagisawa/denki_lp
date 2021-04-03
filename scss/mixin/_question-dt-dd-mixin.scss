@@ -6,6 +6,7 @@
     dt{
         font-weight: 500;
         font-size: 0.18rem;
+        margin: 0 0 0.28rem 1.15rem;
         &:before{
             content: "Q";
             font-size: 0.36rem;
@@ -21,11 +22,13 @@
             display: inline-block;
             text-align: center;
             line-height: 0.45rem;
+            margin:0 0.29rem 0 0;
         }
     }
     dd{
         font-weight: 500;
         font-size: 0.18rem;
+        margin: 0 0 0 1.15rem;
         &:before{
             content: "A";
             font-size: 0.36rem;
@@ -41,6 +44,7 @@
             display: inline-block;
             text-align: center;
             line-height: 0.45rem;
+            margin:0 0.29rem 0 0;
         }
     }
 }

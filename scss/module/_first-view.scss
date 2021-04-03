@@ -29,10 +29,10 @@
                 font-size: 0.24rem;
             }
             &-btn{
-                @include _btn-mixin;
-                width: 4.42rem;
-                a{
-                    color: $main-white;
+                text-align: center;
+                img{
+                    width: 4.42rem;
+                    margin: 0.6rem auto 0;    
                 }
             }
         }
