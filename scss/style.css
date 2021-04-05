@@ -178,10 +178,15 @@ a {
   .first-view__contain-sentence h1 {
     display: inline-block;
     text-align: center;
+    font-size: 0.65rem;
+    line-height: 0.8rem;
   }
   .first-view__contain-sentence p {
     display: inline-block;
     text-align: center;
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    margin: 0.3rem 0 0;
   }
 }
 
@@ -266,6 +271,7 @@ a {
   .appeal__lists-ul-li-1 img {
     width: 70%;
     height: auto;
+    margin: 0 0 0.4rem;
   }
   .appeal__lists-ul-li-2 {
     margin: 0;
@@ -273,6 +279,7 @@ a {
   .appeal__lists-ul-li-2 img {
     width: 70%;
     height: auto;
+    margin: 0.4rem 0 0.4rem;
   }
   .appeal__lists-ul-li-3 {
     margin: 0;
@@ -280,6 +287,7 @@ a {
   .appeal__lists-ul-li-3 img {
     width: 70%;
     height: auto;
+    margin: 0.4rem 0 0;
   }
 }
 
@@ -678,4 +686,16 @@ a {
   left: 0;
   margin: auto;
   text-align: center;
+}
+
+@media (max-width: 760px) {
+  #page_top {
+    display: none;
+  }
+  #page_top a {
+    display: none;
+  }
+  #page_top a::before {
+    display: none;
+  }
 }

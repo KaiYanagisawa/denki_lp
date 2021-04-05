@@ -32,3 +32,15 @@
   margin: auto;
   text-align: center;
 }
+
+@media (max-width: 760px) {
+  #page_top {
+    display: none;
+  }
+  #page_top a {
+    display: none;
+  }
+  #page_top a::before {
+    display: none;
+  }
+}

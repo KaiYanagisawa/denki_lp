@@ -32,3 +32,15 @@
       }
     }
   }
+
+  @media (max-width:760px){
+      #page_top{
+          display: none;
+          a{
+            display: none;
+            &::before{
+                display: none;
+            }
+          }
+      }
+  }
