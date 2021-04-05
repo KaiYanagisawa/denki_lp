@@ -263,11 +263,23 @@ a {
   .appeal__lists-ul-li-1 {
     margin: 0;
   }
+  .appeal__lists-ul-li-1 img {
+    width: 70%;
+    height: auto;
+  }
   .appeal__lists-ul-li-2 {
     margin: 0;
   }
+  .appeal__lists-ul-li-2 img {
+    width: 70%;
+    height: auto;
+  }
   .appeal__lists-ul-li-3 {
     margin: 0;
+  }
+  .appeal__lists-ul-li-3 img {
+    width: 70%;
+    height: auto;
   }
 }
 
@@ -312,7 +324,7 @@ a {
     text-align: center;
   }
   .flow__content-sp img {
-    width: 2.87rem;
+    width: 70%;
   }
 }
 
