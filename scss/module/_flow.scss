@@ -14,12 +14,31 @@
             display: block;
         }
     }
+    &__content-sp{
+        display: none;
+    }
     &__btn {
         padding: 0.28rem 0;
         img{
             width: 4.42rem;
             display: block;
             margin: 0 auto;    
+        }
+    }
+}
+
+//media760px
+@media (max-width:760px){
+    .flow{
+        &__content{
+            display: none;
+        }
+        &__content-sp{
+            display: block;
+            text-align: center;
+            img{
+                width: 2.87rem;
+            }
         }
     }
 }

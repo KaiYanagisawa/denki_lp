@@ -38,3 +38,32 @@
         }
     }
 }
+
+//~760px
+@media (max-width:760px){
+    .first-view{
+        &__contain{
+            &-back-ground{
+                img{
+                    width: 100%;
+                }
+            }
+            &-sentence{
+                position: relative;
+                top: auto;
+                right: auto;
+                z-index: auto;
+                display: block;
+                text-align: center;
+                h1{
+                    display: inline-block;
+                    text-align: center;
+                }
+                p{
+                    display: inline-block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,4 @@
+//トップへ戻るボタン
 $(function() {
     var pagetop = $('#page_top');   
     pagetop.hide();
@@ -14,4 +15,9 @@ $(function() {
         }, 500); 
         return false;
     });
+});
+
+//ナビゲーション
+$(function(){
+    
 });

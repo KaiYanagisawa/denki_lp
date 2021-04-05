@@ -12,6 +12,7 @@
             display: inline-block;
         }
         &__btn{
+            vertical-align: middle;
             display: inline-block;
             a{
                 color: $font-black;
@@ -21,29 +22,25 @@
             }
         }
         &__btn-phone{
+            vertical-align: middle;
             display: inline-block;
-            font-size: 0.24rem;
-            margin: 0.06rem 0.11rem;
             padding: 0 0.09rem 0 0.11rem;
-            font-weight: 700;
-            @include _btn-mixin;
             li{
                 a{
-                    height: 0.4rem;
                     margin: 0.06rem 0;
-                    color: $main-white;
                     display: inline-block;
-                    height: 0.4rem;
                     img{
-                        width: 0.28rem;
-                        height: 0.29rem;
-                        vertical-align: middle;
+                        height: 0.4rem;
+                        width: 3.14rem;
                     }        
                 }
             }
-            span{
-                font-size: 0.18rem;
-                vertical-align: text-top;
-            }
+    }
+}
+
+//メディアクエリ
+@media (max-width:760px){
+    .header{
+        
     }
 }

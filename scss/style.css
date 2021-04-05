@@ -88,6 +88,7 @@ a {
 }
 
 .header__btn {
+  vertical-align: middle;
   display: inline-block;
 }
 
@@ -99,33 +100,19 @@ a {
 }
 
 .header__btn-phone {
+  vertical-align: middle;
   display: inline-block;
-  font-size: 0.24rem;
-  margin: 0.06rem 0.11rem;
   padding: 0 0.09rem 0 0.11rem;
-  font-weight: 700;
-  background: #FF0000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 0.1rem;
 }
 
 .header__btn-phone li a {
-  height: 0.4rem;
   margin: 0.06rem 0;
-  color: #FFFFFF;
   display: inline-block;
-  height: 0.4rem;
 }
 
 .header__btn-phone li a img {
-  width: 0.28rem;
-  height: 0.29rem;
-  vertical-align: middle;
-}
-
-.header__btn-phone span {
-  font-size: 0.18rem;
-  vertical-align: text-top;
+  height: 0.4rem;
+  width: 3.14rem;
 }
 
 .first-view {
@@ -174,6 +161,28 @@ a {
 .first-view__contain-sentence-btn img {
   width: 4.42rem;
   margin: 0.6rem auto 0;
+}
+
+@media (max-width: 760px) {
+  .first-view__contain-back-ground img {
+    width: 100%;
+  }
+  .first-view__contain-sentence {
+    position: relative;
+    top: auto;
+    right: auto;
+    z-index: auto;
+    display: block;
+    text-align: center;
+  }
+  .first-view__contain-sentence h1 {
+    display: inline-block;
+    text-align: center;
+  }
+  .first-view__contain-sentence p {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 .campaign {
@@ -246,6 +255,22 @@ a {
   display: block;
 }
 
+@media (max-width: 760px) {
+  .appeal__lists-ul-li {
+    display: block;
+    text-align: center;
+  }
+  .appeal__lists-ul-li-1 {
+    margin: 0;
+  }
+  .appeal__lists-ul-li-2 {
+    margin: 0;
+  }
+  .appeal__lists-ul-li-3 {
+    margin: 0;
+  }
+}
+
 .flow {
   background: #F5F5F5;
 }
@@ -264,6 +289,10 @@ a {
   display: block;
 }
 
+.flow__content-sp {
+  display: none;
+}
+
 .flow__btn {
   padding: 0.28rem 0;
 }
@@ -274,11 +303,25 @@ a {
   margin: 0 auto;
 }
 
+@media (max-width: 760px) {
+  .flow__content {
+    display: none;
+  }
+  .flow__content-sp {
+    display: block;
+    text-align: center;
+  }
+  .flow__content-sp img {
+    width: 2.87rem;
+  }
+}
+
 .question__title h2 {
   font-size: 0.36rem;
   font-weight: 700;
   line-height: 0.58rem;
   text-align: center;
+  padding: 0.32rem 0;
 }
 
 .question__lists-dl {
