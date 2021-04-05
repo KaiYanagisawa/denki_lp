@@ -30,6 +30,12 @@
 //media760px
 @media (max-width:760px){
     .flow{
+        &__title{
+            h2{
+                font-size: 0.65rem;
+                padding: 0.9rem;
+            }
+        }
         &__content{
             display: none;
         }
@@ -38,6 +44,14 @@
             text-align: center;
             img{
                 width: 70%;
+            }
+        }
+        &__btn{
+            text-align: center;
+            img{
+                width: 83%;
+                margin: 0.9rem 0;
+                display: inline-block;
             }
         }
     }

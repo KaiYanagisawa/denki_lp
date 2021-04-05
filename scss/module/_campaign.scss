@@ -10,4 +10,24 @@
             height: 1.57rem;
         }
     }
+    &__board-sp{
+        display: none;
+    }
+}
+
+//media 760px
+@media (max-width:760px){
+    .campaign{
+        &__board{
+            display: none;
+        }
+        &__board-sp{
+            display: block;
+            text-align: center;
+            img{
+                width: 93%;
+                margin: 0.25rem 0;
+            }
+        }
+    }
 }

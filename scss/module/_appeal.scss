@@ -27,10 +27,10 @@
         }
     }
     &__btn {
+        text-align: center;
         img{
             width: 4.42rem;
-            margin: 0.28rem auto;    
-            display: block;
+            margin: 0.28rem 0;    
         }
     }
 }
@@ -38,6 +38,12 @@
 //media760px
 @media (max-width:760px){
     .appeal{
+        &__title{
+            h2{
+                font-size: 0.65rem;
+                padding: 0.9rem;
+            }
+        }
         &__lists{
             &-ul{
                 &-li{
@@ -68,6 +74,12 @@
                         }
                     }
                 }
+            }
+        }
+        &__btn{
+            img{
+                width: 83%;
+                margin: 0.9rem 0;
             }
         }
     }

@@ -1,0 +1,27 @@
+@mixin _question-media-mixin {
+    dt{
+        margin-bottom: 1.5rem;
+        margin-left: 0;
+        img{
+            width: 1.9rem;
+            vertical-align: middle;
+        }
+        p{
+            font-size: 0.54rem;
+            width: 80%;
+            vertical-align: middle;
+        }
+    }
+    dd{
+        margin-left: 0;
+        img{
+            width: 1.9rem;
+            vertical-align: middle;
+        }
+        p{
+            font-size: 0.54rem;
+            width: 80%;
+            vertical-align: middle;
+        }
+    }
+}

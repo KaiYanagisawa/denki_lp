@@ -35,3 +35,35 @@
         }
     }
 }
+
+@media (max-width:760px){
+    .question{
+        &__lists{
+            &-dl{
+                &-1{
+                    @include _question-media-mixin;
+                }
+                &-2{
+                    @include _question-media-mixin;
+                }
+                &-3{
+                    @include _question-media-mixin;
+                }
+                &-4{
+                    @include _question-media-mixin;
+               }
+                &-5{
+                    @include _question-media-mixin;
+                }
+            }
+        }
+        &__btn{
+            text-align: center;
+            img{
+                display: inline-block;
+                width: 83%;
+                margin: 0.9rem 0;
+            }
+        }
+    }
+}
