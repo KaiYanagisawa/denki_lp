@@ -38,6 +38,12 @@
 
 @media (max-width:760px){
     .question{
+        &__title{
+            h2{
+                font-size: 0.65rem;
+                padding: 0.9rem;
+            }
+        }
         &__lists{
             &-dl{
                 &-1{
