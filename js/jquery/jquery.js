@@ -20,7 +20,7 @@ $(function() {
 //ナビゲーション
 $(function(){
     // ハンバーガーメニュークリックイベント
-    $('.header__logo').click(function(){
+    $('.header__hamburger').click(function(){
       if($('.header-menu').hasClass('open')){
         // ナビゲーション非表示
         $('.header-menu').removeClass('open');

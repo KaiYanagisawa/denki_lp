@@ -66,20 +66,21 @@
         }
         &__hamburger{
             display: block;
-            img{
-                float: right;
-                height: 1.9rem;
-            }
+            a{
+                img{
+                    float: right;
+                    height: 1.9rem;
+                }
+            }    
         }
     }
     .header-menu{
-        display: block;
+        display: none;
         position: fixed;
         z-index: 3;
         height: 100%;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.7);
-        transition: right 0.5s;
         &__nav{
             &-ul{
                 &-li{
@@ -113,6 +114,6 @@
         }
     }
     .open{
-        right: 0;
+        display: block;
     }
 }
