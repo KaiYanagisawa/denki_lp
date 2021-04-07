@@ -105,6 +105,7 @@ a {
   font-weight: 700;
   font-size: 0.18rem;
   margin: 0 0.1rem;
+  padding: 0.1rem 0;
 }
 
 .header__btn-phone {
@@ -850,6 +851,12 @@ a {
 @media (max-width: 760px) {
   .footer {
     padding: 0.17rem 0 5rem;
+  }
+  .footer__links-1 {
+    font-size: 0.47rem;
+  }
+  .footer__links-2 {
+    font-size: 0.47rem;
   }
 }
 

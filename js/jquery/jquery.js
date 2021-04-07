@@ -15,22 +15,39 @@ $(function() {
         }, 500); 
         return false;
     });
-});
 
-//ナビゲーション
-$(function(){
+    //ナビゲーションスクロールpc
+    $('header a').click(function(){
+        var topHeight = $('header').height();
+        var id = $(this).attr('href');
+        var position = ($(id).offset().top)-(topHeight);
+        $('body,html').animate({
+            scrollTop: position
+        },500);
+        return false;
+    });
+
+    // ナビゲーションスクロールsp
+    $('.header-menu a').click(function(){
+        var topHeight = $('header').height();
+        var id = $(this).attr('href');
+        var position = ($(id).offset().top)-(topHeight);
+        $('body,html').animate({
+            scrollTop: position
+        },500);
+        //クリックしたら閉じる
+        $('.header-menu').removeClass('open');
+        return false;
+    });
+
     // ハンバーガーメニュークリックイベント
     $('.header__hamburger').click(function(){
-      if($('.header-menu').hasClass('open')){
-        // ナビゲーション非表示
-        $('.header-menu').removeClass('open');
-        // ハンバーガーメニューを元に戻す
-        $(this).removeClass('open');
-      }else{
-        // ナビゲーションを表示
-        $('.header-menu').addClass('open');
-        // ハンバーガーメニューを✖印に変更
-        $(this).addClass('open');
-      }
-    });
+        if($('.header-menu').hasClass('open')){
+          // ナビゲーション非表示
+          $('.header-menu').removeClass('open');
+        }else{
+          // ナビゲーションを表示
+          $('.header-menu').addClass('open');
+        }
+      });  
 });
