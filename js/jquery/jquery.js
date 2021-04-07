@@ -20,15 +20,15 @@ $(function() {
 //ナビゲーション
 $(function(){
     // ハンバーガーメニュークリックイベント
-    $('.header__menu').click(function(){
-      if($('.nav-sp').hasClass('open')){
+    $('.header__logo').click(function(){
+      if($('.header-menu').hasClass('open')){
         // ナビゲーション非表示
-        $('.nav-sp').removeClass('open');
+        $('.header-menu').removeClass('open');
         // ハンバーガーメニューを元に戻す
         $(this).removeClass('open');
       }else{
         // ナビゲーションを表示
-        $('.nav-sp').addClass('open');
+        $('.header-menu').addClass('open');
         // ハンバーガーメニューを✖印に変更
         $(this).addClass('open');
       }

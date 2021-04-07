@@ -10,6 +10,9 @@
     width: 100%;
     &__logo{
         float: left;
+        img{
+            height: 0.52rem;
+        }
     }
     li{
         display: inline-block;
@@ -34,29 +37,82 @@
                 display: inline-block;
                 img{
                     height: 0.4rem;
-                    width: 3.14rem;
                 }        
             }
         }
     }
-    &__menu{
+    &__hamburger{
         display: none;
     }
+}
+.header-menu{
+    display: none;
 }
 
 
 //メディアクエリ
 @media (max-width:760px){
     .header{
+        &__logo{
+            img{
+                height: 1.9rem;
+            }
+        }
         &__btn{
             display: none;
         }
         &__btn-phone{
             display: none;
         }
-        &__menu{
-            display: inline-block;
-            width: 1.9rem;
+        &__hamburger{
+            display: block;
+            img{
+                float: right;
+                height: 1.9rem;
+            }
         }
+    }
+    .header-menu{
+        display: block;
+        position: fixed;
+        z-index: 3;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        transition: right 0.5s;
+        &__nav{
+            &-ul{
+                &-li{
+                    text-align: right;
+                    &-1{
+                        @include _header-menu-mixin;
+                        a{
+                            padding: 0.5rem 28%
+                        }
+                    }
+                    &-2{
+                        @include _header-menu-mixin;
+                        a{
+                            padding: 0.5rem 24%;
+                        }
+                    }
+                    &-3{
+                        @include _header-menu-mixin;
+                        a{
+                            padding: 0.5rem 42%;
+                        }
+                    }
+                    &-4{
+                        text-align: right;
+                        img{
+                            width: 9.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .open{
+        right: 0;
     }
 }

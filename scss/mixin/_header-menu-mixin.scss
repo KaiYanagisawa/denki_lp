@@ -1,0 +1,13 @@
+@mixin _header-menu-mixin {
+    border-bottom: 2px solid #F5F5F5;
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 9.6rem;
+    text-align: center;
+    a{
+        color: $font-black;
+        font-weight: 700;
+        font-size: 0.7rem;
+        display: block;
+    }
+}
