@@ -1,5 +1,5 @@
-//トップへ戻るボタン
 $(function() {
+   //トップへ戻るボタン
     var pagetop = $('#page_top');   
     pagetop.hide();
     $(window).scroll(function () {
@@ -50,4 +50,15 @@ $(function() {
           $('.header-menu').addClass('open');
         }
       });  
+
+    //フッターsp広告
+    var pageFooter = $('.campaign-footer');   
+    pageFooter.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  
+            pageFooter.fadeIn();
+        } else {
+            pageFooter.fadeOut();
+        }
+    });
 });
