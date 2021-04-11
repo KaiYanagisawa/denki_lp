@@ -1,27 +1,27 @@
-.footer{
+.footer {
     background-color: $background-gray;
-    &__links{
+    &__links {
         text-align: center;
         padding: 0.17rem 0;
-        &-1{
+        &-1 {
             @include _footer-font-mixin;
             margin: 0 0.85rem 0 0;
         }
-        &-2{
+        &-2 {
             @include _footer-font-mixin;
             margin: 0 0 0 0.85rem;
         }
     }
 }
 
-@media (max-width:760px){
-    .footer{
-        padding:0.17rem 0 5rem;
-        &__links{
-            &-1{
+@media (max-width:760px) {
+    .footer {
+        padding: 0.17rem 0 5rem;
+        &__links {
+            &-1 {
                 font-size: 0.47rem;
             }
-            &-2{
+            &-2 {
                 font-size: 0.47rem;
             }
         }
