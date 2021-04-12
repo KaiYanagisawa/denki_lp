@@ -186,7 +186,9 @@ a {
     display: block;
   }
   .header-menu__nav-ul-li-1 a {
-    padding: 0.5rem 28%;
+    padding: 0.5rem 0;
+    display: block;
+    text-align: center;
   }
   .header-menu__nav-ul-li-2 {
     border-bottom: 2px solid #F5F5F5;
@@ -202,7 +204,9 @@ a {
     display: block;
   }
   .header-menu__nav-ul-li-2 a {
-    padding: 0.5rem 24%;
+    padding: 0.5rem 0;
+    display: block;
+    text-align: center;
   }
   .header-menu__nav-ul-li-3 {
     border-bottom: 2px solid #F5F5F5;
@@ -218,7 +222,9 @@ a {
     display: block;
   }
   .header-menu__nav-ul-li-3 a {
-    padding: 0.5rem 42%;
+    padding: 0.5rem 0;
+    display: block;
+    text-align: center;
   }
   .header-menu__nav-ul-li-4 {
     text-align: right;

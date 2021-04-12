@@ -1,5 +1,5 @@
 // header
-.header{
+.header {
     background-color: $main-white;
     text-align: right;
     list-style: none;
@@ -8,23 +8,23 @@
     top: 0;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 100%;
-    &__logo{
+    &__logo {
         float: left;
-        img{
+        img {
             height: 0.52rem;
             margin: 0 0 0 0.2rem;
         }
     }
-    &__logo-sp{
+    &__logo-sp {
         display: none;
     }
-    li{
+    li {
         display: inline-block;
     }
-    &__btn{
+    &__btn {
         vertical-align: middle;
         display: inline-block;
-        a{
+        a {
             color: $font-black;
             font-weight: 700;
             font-size: 0.18rem;
@@ -32,90 +32,96 @@
             padding: 0.1rem 0;
         }
     }
-    &__btn-phone{
+    &__btn-phone {
         vertical-align: middle;
         display: inline-block;
         padding: 0 0.2rem 0 0.11rem;
-        li{
-            a{
+        li {
+            a {
                 margin: 0.06rem 0;
                 display: inline-block;
-                img{
+                img {
                     height: 0.4rem;
-                }        
+                }
             }
         }
     }
-    &__hamburger{
+    &__hamburger {
         display: none;
     }
 }
-.header-menu{
+
+.header-menu {
     display: none;
 }
 
-
 //メディアクエリ
-@media (max-width:760px){
-    .header{
-        &__logo{
+@media (max-width:760px) {
+    .header {
+        &__logo {
             display: none;
         }
-        &__logo-sp{
+        &__logo-sp {
             display: block;
             float: left;
-            img{
+            img {
                 height: 1.9rem;
             }
         }
-        &__btn{
+        &__btn {
             display: none;
         }
-        &__btn-phone{
+        &__btn-phone {
             display: none;
         }
-        &__hamburger{
+        &__hamburger {
             display: block;
-            a{
-                img{
+            a {
+                img {
                     float: right;
                     height: 1.9rem;
                 }
-            }    
+            }
         }
     }
-    .header-menu{
+    .header-menu {
         display: none;
         position: fixed;
         z-index: 3;
         height: 100%;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.7);
-        &__nav{
-            &-ul{
-                &-li{
+        &__nav {
+            &-ul {
+                &-li {
                     text-align: right;
-                    &-1{
+                    &-1 {
                         @include _header-menu-mixin;
-                        a{
-                            padding: 0.5rem 28%
+                        a {
+                            padding: 0.5rem 0;
+                            display: block;
+                            text-align: center
                         }
                     }
-                    &-2{
+                    &-2 {
                         @include _header-menu-mixin;
-                        a{
-                            padding: 0.5rem 24%;
+                        a {
+                            padding: 0.5rem 0;
+                            display: block;
+                            text-align: center;
                         }
                     }
-                    &-3{
+                    &-3 {
                         @include _header-menu-mixin;
-                        a{
-                            padding: 0.5rem 42%;
+                        a {
+                            padding: 0.5rem 0;
+                            display: block;
+                            text-align: center
                         }
                     }
-                    &-4{
+                    &-4 {
                         text-align: right;
-                        img{
+                        img {
                             width: 9.6rem;
                         }
                     }
@@ -123,7 +129,7 @@
             }
         }
     }
-    .open{
+    .open {
         display: block;
     }
 }
