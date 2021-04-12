@@ -90,6 +90,7 @@ a {
 
 .header__logo img {
   height: 0.52rem;
+  margin: 0 0 0 0.2rem;
 }
 
 .header__logo-sp {
@@ -116,7 +117,7 @@ a {
 .header__btn-phone {
   vertical-align: middle;
   display: inline-block;
-  padding: 0 0.09rem 0 0.11rem;
+  padding: 0 0.2rem 0 0.11rem;
 }
 
 .header__btn-phone li a {
@@ -302,8 +303,8 @@ a {
   .first-view__contain-sentence p {
     display: inline-block;
     text-align: center;
-    font-size: 0.5rem;
-    line-height: 0.5rem;
+    font-size: 0.47rem;
+    line-height: 0.47rem;
     margin: 0.3rem 0 0;
   }
   .first-view__contain-sentence-btn img {
