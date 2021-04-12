@@ -92,6 +92,10 @@ a {
   height: 0.52rem;
 }
 
+.header__logo-sp {
+  display: none;
+}
+
 .header li {
   display: inline-block;
 }
@@ -133,7 +137,14 @@ a {
 }
 
 @media (max-width: 760px) {
-  .header__logo img {
+  .header__logo {
+    display: none;
+  }
+  .header__logo-sp {
+    display: block;
+    float: left;
+  }
+  .header__logo-sp img {
     height: 1.9rem;
   }
   .header__btn {

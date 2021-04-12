@@ -14,6 +14,9 @@
             height: 0.52rem;
         }
     }
+    &__logo-sp{
+        display: none;
+    }
     li{
         display: inline-block;
     }
@@ -55,6 +58,11 @@
 @media (max-width:760px){
     .header{
         &__logo{
+            display: none;
+        }
+        &__logo-sp{
+            display: block;
+            float: left;
             img{
                 height: 1.9rem;
             }
