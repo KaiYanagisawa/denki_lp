@@ -360,6 +360,10 @@ a {
   height: 3.97rem;
 }
 
+.appeal__lists-ul-li-sp {
+  display: none;
+}
+
 .appeal__lists-ul-li-2 {
   display: inline-block;
   text-align: center;
@@ -400,13 +404,19 @@ a {
     display: block;
     text-align: center;
   }
-  .appeal__lists-ul-li-1 {
+  .appeal__lists-ul-li-sp {
+    display: block;
+  }
+  .appeal__lists-ul-li-sp-1 {
     margin: 0;
   }
-  .appeal__lists-ul-li-1 img {
+  .appeal__lists-ul-li-sp-1 img {
     width: 86%;
     height: auto;
     margin: 0 0 0.4rem;
+  }
+  .appeal__lists-ul-li-pc {
+    display: none;
   }
   .appeal__lists-ul-li-2 {
     margin: 0;
@@ -927,7 +937,7 @@ a {
   .campaign-footer__text p {
     display: inline-block;
     font-weight: 700;
-    font-size: 0.55rem;
+    font-size: 0.4rem;
     margin: 0.6rem 0;
     border-bottom: solid 0.27rem #FFFF00;
     line-height: 0.3rem;
