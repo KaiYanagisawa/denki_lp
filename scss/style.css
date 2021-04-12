@@ -65,7 +65,7 @@ html {
 
 body {
   font-size: 0.16rem;
-  font-family: YuGothic,“Yu Gothic”,"游ゴシック";
+  font-family: YuGothic,“Yu Gothic”,"游ゴシック","Yu Gothic Medium", "游ゴシック Medium", "游ゴシック体";
   color: #000000;
 }
 
@@ -307,7 +307,7 @@ a {
 .campaign__board {
   display: block;
   text-align: center;
-  padding: 0.21rem 0;
+  padding: 0.1rem 0;
   width: 100%;
 }
 
@@ -859,6 +859,16 @@ a {
   margin: 0 0 0 0.85rem;
 }
 
+.footer__copy-right {
+  text-align: center;
+  padding: 0 0 0.17rem;
+}
+
+.footer__copy-right p {
+  display: inline-block;
+  font-size: 0.18rem;
+}
+
 @media (max-width: 760px) {
   .footer {
     padding: 0.17rem 0 5rem;
@@ -867,6 +877,9 @@ a {
     font-size: 0.47rem;
   }
   .footer__links-2 {
+    font-size: 0.47rem;
+  }
+  .footer__copy-right p {
     font-size: 0.47rem;
   }
 }
