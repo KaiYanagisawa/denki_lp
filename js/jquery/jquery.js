@@ -50,6 +50,15 @@ $(function() {
             $('.header-menu').addClass('open');
         }
     });
+    $('.header-menu').click(function() {
+        if ($('.header-menu').hasClass('open')) {
+            // ナビゲーション非表示
+            $('.header-menu').removeClass('open');
+        } else {
+            // ナビゲーションを表示
+            $('.header-menu').addClass('open');
+        }
+    });
 
     //フッターsp広告
     if (window.matchMedia('(max-width:760px)').matches) {
